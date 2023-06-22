@@ -36,7 +36,6 @@ ExecStart=python3 /usr/bin/AutoCCNUSrunLogin.py
 ExecReload=/bin/kill -s HUP $MAINPID
 ExecStop=/bin/kill -s QUIT $MAINPID
 PrivateTmp=true
-User=pi
 
 [Install]
 WantedBy=multi-user.target
